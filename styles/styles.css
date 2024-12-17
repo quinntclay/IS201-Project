@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #dfdfdf;
+}
+
+nav {
+    background-color: #797878;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: #720b0b;
+    color: white;
+    padding: 20px 0;
+}
+
+.list {
+    margin: 20px auto;
+    width: 80%;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #eaf2f8;
+    border-radius: 5px;
+}
+
+.image-section img {
+    max-width: 20%;
+    border: 2px solid #8e44ad;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.video-section {
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #fdfefe;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+footer a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+/* Viola Joke Generator Styles */
+.viola-jokes {
+    font-family: Arial, sans-serif;
+    background-color: #f7f1e3;
+    color: #2c3e50;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    border: 2px solid #8e44ad;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vj-header {
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.vj-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.vj-container {
+    padding: 20px;
+}
+
+.vj-container p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.vj-container button {
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.vj-container button:hover {
+    background-color: #6c3483;
+}
+
+.vj-footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    border-radius: 0 0 8px 8px;
+    font-size: 0.9rem;
+}
